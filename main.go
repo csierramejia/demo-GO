@@ -1,6 +1,6 @@
 package main
 
-func main2() {
+func main() {
 	var message string = "Hola Mundo, GO"
 	// es la forma mas comun de declarar
 	message2 := "Mensaje de prueba"

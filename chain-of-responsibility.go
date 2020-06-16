@@ -87,7 +87,7 @@ type patient struct {
 	paymentDone       bool
 }
 
-func main2() {
+func main() {
 	cashier := &cashier{}
 
 	//Set next for medical department

@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func main2() {
+func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	operacion := scanner.Text()

@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type datos struct {
 	numero1   int
 	numero2   int
@@ -70,7 +72,8 @@ func main() {
 	sumar.setNext(restar)
 	restar.setNext(multiplicar)
 
-	datos := &datos{operacion: "+", numero1: 6, numero2: 4}
+	dat := &datos{operacion: "+", numero1: 6, numero2: 4}
+	fmt.Printf("%+v\n", dat)
+	sumar.calcular(dat)
 
-	sumar.calcular(datos)
 }
