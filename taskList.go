@@ -60,4 +60,8 @@ func main() {
 	fmt.Printf("%+v\n", *list.tasks[2])
 	list.removeTask(1)
 	fmt.Printf("%+v\n", *list.tasks[1])
+
+	for index, tarea := range list.tasks {
+		println("Index", index, "Tarea", tarea.name)
+	}
 }
