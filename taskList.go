@@ -64,4 +64,12 @@ func main() {
 	for index, tarea := range list.tasks {
 		println("Index", index, "Tarea", tarea.name)
 	}
+
+	for j := 0; j < 5; j++ {
+		if j == 3 {
+			continue
+		}
+		println(j)
+	}
+
 }
